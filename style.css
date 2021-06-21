@@ -429,6 +429,7 @@ form textarea{
     width: 100%;
     border: none;
     padding: 30px 35px;
+    color: #fff;
 }
 .contactform input[type=text], .contactform input[type=email] {
     border: none;
@@ -438,7 +439,9 @@ form textarea{
     padding: 20px 35px;
     border-radius: 6px;
 }
-
+form .row button{
+    border: none;
+}
 .contactform input[type=submit] {
     padding: 18px 60px;
     border: 1px solid #FE4A56;   
@@ -450,7 +453,6 @@ form textarea{
 }
 .contactform input[type=submit]:hover{
     background-color: #ff4a57;
-    color: #fff;
 }
 
 /*---------------------------------------------ENDING----------------------------------------*/
