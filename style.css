@@ -266,6 +266,7 @@ section .about{
     margin: 30px auto;
     padding: 35px 25px;
     text-align: center;
+    background-color: #1F2334;
 }
 .col-3:hover{
     border-radius: 5px 65px;
