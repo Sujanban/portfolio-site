@@ -350,11 +350,13 @@ section .freelancer button:hover{
     margin: 10px auto;
     text-align: center;
 }
+@media only screen and (min-width: 1024px){
 .col-4:hover{
     border-radius: 5px 45px;
     background-color: #151f4d;
     color: #fff;
     border: 1px solid #FF4A57;
+}
 }
 
 .col-4 img{
