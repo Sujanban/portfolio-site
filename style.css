@@ -270,7 +270,6 @@ section .about{
 }
 @media only screen and (min-width: 1024px){
 .col-3:hover{
-    border-radius: 5px 65px;
     background-color: #151f4d;
     color: #fff;
     border: 2px solid #FF4A57;
