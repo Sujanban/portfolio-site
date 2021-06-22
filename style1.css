@@ -5,7 +5,9 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .container{
   width: 80%;
   margin: auto;
