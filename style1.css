@@ -4,6 +4,7 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 html {
     scroll-behavior: smooth;
