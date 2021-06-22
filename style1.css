@@ -270,7 +270,7 @@ section .about{
     margin: 30px auto;
     padding: 35px 25px;
     text-align: center;
-    background-color: #1F2334;
+    background: rgba(255, 255, 255, 0.05);
 }
 @media only screen and (min-width: 1024px){
 .col-3:hover{
@@ -697,4 +697,14 @@ footer h3{
     font-size: 16px;
 }
 
+}
+.topbtn{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    
+
+}
+.topbtn img{
+    width: 50px;
 }
