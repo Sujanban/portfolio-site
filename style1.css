@@ -9,6 +9,16 @@
 html {
     scroll-behavior: smooth;
 }
+::-webkit-scrollbar{
+    width: 14px;
+    background-color: grey;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #FE4A56;
+    margin-left: 2px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
 .container{
   width: 80%;
   margin: auto;
