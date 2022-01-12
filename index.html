@@ -199,7 +199,7 @@
 <!-----------------------------------------------------FOOTER--------------------------------------------------->
 
 				<footer>
-						<h3>Copyright © 2021 <a href="https://twitter.com/ban_sujan" target="_blank">Sujan Ban</a> All Rights Reserved.</h3>
+					<h3>Copyright © <span id="currentDate"></span> <a href="https://twitter.com/ban_sujan" target="_blank">Sujan Ban</a> All Rights Reserved.</h3>
 				</footer>
 
 
@@ -210,6 +210,13 @@
 </div>
    
 <!------------------------------------------------------------ Javascript ---------------------------------------->
+	<!-------setting uo dynamic date--------------------->
+	<script>
+	let date = new Date();
+	let year = date.getFullYear();
+	document.getElementById("currentDate").innerHTML = year;
+	</script>
+	
 	
 	<script type="text/javascript" src="vanilla-tilt.js"></script>
 		<script>
