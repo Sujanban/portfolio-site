@@ -191,10 +191,11 @@ header{
 }
 
 .showcase-content{
-    width: 50%;
-    margin: auto;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    transform: translateY(50%);
+    align-items: center;
+    height: 80vh;
 }
 .showcase-content h1{
     color: #fff;
@@ -543,8 +544,7 @@ section .about{
 .showcase-content{
     width: 80%;
     margin: auto;
-    text-align: center;
-    transform: translateY(50%);     
+    text-align: center;    
 }
 .showcase-content p{
     color: #DFDEDE;
@@ -637,8 +637,7 @@ section .services{
 .showcase-content{
     width: 80%;
     margin: auto;
-    text-align: center;
-    transform: translateY(50%);     
+    text-align: center;   
 }
 .showcase-content p{
     color: #DFDEDE;
