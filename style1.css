@@ -254,6 +254,7 @@ section .about{
 .col-2 img{
     max-width: 90%;
     padding: 50px 0;
+    border-radius: 50%;
 }
 .col-2 h1{
     font-size: 35px;
