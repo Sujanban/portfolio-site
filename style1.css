@@ -249,6 +249,7 @@ section .about{
 .col-2{
     flex-basis: 50%;
     min-width: 300px;
+    text-align: center;
 }
 .col-2 img{
     max-width: 90%;
