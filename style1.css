@@ -9,20 +9,11 @@
 html {
     scroll-behavior: smooth;
 }
-::-webkit-scrollbar{
-    width: 14px;
-    background-color: grey;
-}
-::-webkit-scrollbar-thumb{
-    background-color: #FE4A56;
-    margin-left: 2px;
-    border: 2px solid white;
-    border-radius: 8px;
-}
 .container{
-  width: 80%;
-  margin: auto;
-  text-align: center;
+    height: 10vh;
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
 
 body {
@@ -177,7 +168,7 @@ header{
 /*---------------------hero---------------------------*/
 
 .showcase{
-    height: calc(100vh - 100px);
+    height: 90vh;
     background-color: #25263A;
     background-image: url(https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80);
     background-position: center;
